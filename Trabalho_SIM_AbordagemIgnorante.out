@@ -1,0 +1,79 @@
+
+                                      ARENA Simulation Results
+                                     Adriano - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 6/24/2023
+Analista: Adriano                                                     Data de revisão do modelo: 6/24/2023
+
+Replicação terminada no tempo de      : 8.0 Horas 
+Unidade de Tempo Base: Horas
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .82036     (Insuf)    .80167     .85155         15    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         15    
+Entity 1.WaitTime                           3.2918     (Insuf)    .63757     5.9126         15    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         15    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         15    
+Entity 1.TotalTime                          3.2216     (Insuf)    .65866     5.8303         15    
+Batch 2.Queue.WaitingTime                   .00000     (Insuf)    .00000     .00000         30    
+Process 8.Queue.WaitingTime                 .01497     (Insuf)    .00000     .08770         62    
+Batch 1.Queue.WaitingTime                   .10994     (Insuf)    .00000     .25990         30    
+Process 5.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         16    
+Hold 1.Queue.WaitingTime                    2.9628     (Insuf)    .34754     5.6102         15    
+Process 9.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         15    
+Process 4.Queue.WaitingTime                 .00970     (Insuf)    .00000     .04784         64    
+Process 2.Queue.WaitingTime                 .02831     (Insuf)    .00000     .06022         32    
+Process 7.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         16    
+Process 6.Queue.WaitingTime                 .00479     (Insuf)    .00000     .02409         16    
+Process 10.Queue.WaitingTime                .01819     (Insuf)    .00000     .04387         15    
+Process 1.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         64    
+Process 3.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         16    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                27.179     (Insuf)    .00000     52.000     52.000    
+Maquina Impar.NumberBusy                    .86791     (Insuf)    .00000     2.0000     .00000    
+Maquina Impar.NumberScheduled               2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Maquina Impar.Utilization                   .43395     (Insuf)    .00000     1.0000     .00000    
+Maquina Par.NumberBusy                      1.6913     (Insuf)    .00000     2.0000     2.0000    
+Maquina Par.NumberScheduled                 2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Maquina Par.Utilization                     .84566     (Insuf)    .00000     1.0000     1.0000    
+Batch 2.Queue.NumberInQueue                 .00000     (Insuf)    .00000     2.0000     .00000    
+Process 8.Queue.NumberInQueue               .12021     (Insuf)    .00000     1.0000     1.0000    
+Batch 1.Queue.NumberInQueue                 .43184     (Insuf)    .00000     2.0000     1.0000    
+Process 5.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Hold 1.Queue.NumberInQueue                  23.218     (Insuf)    .00000     47.000     47.000    
+Process 9.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Process 4.Queue.NumberInQueue               .07764     (Insuf)    .00000     1.0000     .00000    
+Process 2.Queue.NumberInQueue               .11324     (Insuf)    .00000     1.0000     1.0000    
+Process 7.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Process 6.Queue.NumberInQueue               .00958     (Insuf)    .00000     1.0000     .00000    
+Process 10.Queue.NumberInQueue              .03410     (Insuf)    .00000     1.0000     .00000    
+Process 1.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Process 3.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Entity 1.NumberIn                           127.00    
+Entity 1.NumberOut                          75.000    
+Maquina Impar.NumberSeized                  127.00    
+Maquina Impar.ScheduledUtilization          .43395    
+Maquina Par.NumberSeized                    189.00    
+Maquina Par.ScheduledUtilization            .84566    
+System.NumberOut                            15.000    
+
+
+Tempo executando a simulação: 0.05 minutos.
+Simulação completada.
